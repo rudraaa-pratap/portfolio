@@ -1,16 +1,88 @@
-# React + Vite
+<h1 align="center">My Portfolio </h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  A modern personal portfolio website built using React to showcase my projects, skills, and work.
+</p>
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Demo
 
-## React Compiler
+👉 https://portfolio-gx1s-kappa.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* Vite
+* JavaScript (ES6+)
+* HTML5 & CSS3
+* Tailwind CSS (if used)
+
+---
+
+## ✨ Features
+
+* Fully responsive design 
+* Clean and modern UI 
+* Projects showcase section 
+* About me section 
+* Contact section 
+* Fast performance 
+
+---
+
+
+## ⚙️ Run Locally
+
+Clone the project
+
+```bash
+git clone https://github.com/rudraaa-pratap/portfolio.git
+```
+
+Go to the project directory
+
+```bash
+cd portfolio
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📁 Folder Structure
+
+```bash
+portfolio/
+├── public/
+├── src/
+│   ├── components/
+│   ├── assets/
+│   ├── pages/
+│   └── App.jsx
+├── package.json
+└── README.md
+```
+
+---
+
+## 📬 Contact
+
+* LinkedIn: www.linkedin.com/in/rudra-pratap-a856b7373
+
+
+
+
+
