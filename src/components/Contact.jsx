@@ -21,13 +21,7 @@ export default function Contact() {
                 <span className="link-icon">✉</span>
                 ruddrrraaaaa@gmail.com
               </a>
-              <a
-                className="contact-link"
-                href="tel:+917903290473"
-              >
-                <span className="link-icon">☎</span>
-                +91-7903290473
-              </a>
+              
               <a
                 className="contact-link"
                 href="https://linkedin.com/in/rudra-pratap-a856b7373"
