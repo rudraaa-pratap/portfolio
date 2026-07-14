@@ -8,9 +8,9 @@ export default function Contact() {
         <div className="contact-inner">
           <div className="contact-text">
             <p>
-              If you're building something interesting, I’d love to be part of it.
-              Whether it’s a project, an idea, or just a technical discussion — I’m always up for meaningful conversations.
-              I’m especially interested in web and Web3 projects where I can contribute and learn by building.
+              If you're building something interesting, I'd love to be part of it.
+              Whether it's a project, an idea, or just a technical discussion — I'm always up for meaningful conversations.
+              I'm especially interested in web and Web3 projects where I can contribute and learn by building.
             </p>
 
             <div className="contact-links">
@@ -30,15 +30,6 @@ export default function Contact() {
               >
                 <span className="link-icon">in</span>
                 LinkedIn
-              </a>
-              <a
-                className="contact-link"
-                href="https://github.com/rudraaa-pratap"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="link-icon">⌨</span>
-                GitHub
               </a>
             </div>
           </div>

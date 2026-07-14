@@ -37,6 +37,20 @@ export default function Hero() {
               >
                 ↗ LinkedIn
               </a>
+              <a
+                href="https://leetcode.com/u/coding_rp/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                ↗ LeetCode
+              </a>
+              <a
+                href="https://codeforces.com/profile/Rudraaaa_pratap"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                ↗ Codeforces
+              </a>
               <a href="mailto:ruddrrraaaaa@gmail.com">↗ Email</a>
             </div>
           </div>
