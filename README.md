@@ -80,15 +80,7 @@ portfolio/
 
 ---
 
-## Let's Connect!
 
-I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
-
-- **LinkedIn:** [Rudra Pratap](https://www.linkedin.com/in/rudra-pratap-a856b7373)
-- **GitHub:** [@rudraaa-pratap](https://github.com/rudraaa-pratap)
-- **LeetCode:** [@coding_rp](https://leetcode.com/u/coding_rp/)
-- **Codeforces:** [@Rudraaaa_pratap](https://codeforces.com/profile/Rudraaaa_pratap)
-- **Email:** ruddrrraaaaa@gmail.com
 
 ---
 
