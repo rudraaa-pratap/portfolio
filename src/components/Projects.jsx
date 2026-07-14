@@ -1,53 +1,54 @@
 const projects = [
   {
+    title: 'SnapURL',
+    badge: 'Full-Stack URL Shortener',
+    description:
+      'A full-stack URL shortener that generates unique short links and redirects users to original URLs with low latency.',
+    points: [
+      'Engineered a full-stack URL shortener with low-latency redirects.',
+      'Implemented click analytics, tracking total click counts and timestamped visit history for each shortened link.',
+      'Designed a Mongoose schema and RESTful API to create short URLs and serve per-link analytics on demand.',
+      'Deployed the backend on Render and the frontend on Vercel, using MongoDB Atlas as the persistent data store.',
+    ],
+    tech: ['Node.js', 'Express', 'MongoDB'],
+    links: [{ label: 'Live Demo', url: 'https://snap-url-rho.vercel.app' }, { label: 'Backend API', url: 'https://snap-url-v2ta.onrender.com' }, { label: 'GitHub', url: 'https://github.com/rudraaa-pratap/snap-url' }],
+  },
+  {
     title: 'NexusForce',
-    badge: 'Blockchain / Web3',
+    badge: 'Blockchain Dispute Resolution',
     description:
       'A trustless, decentralized P2P dispute resolution system built on Polygon. Think of it as a digital courtroom where code is the judge.',
     points: [
-      'Built a 3-layer conflict resolution engine — Smart Contract Escrow, Auto-Resolution, and a DAO Juror Tribunal.',
-      'Engineered Solidity 0.8.x smart contracts that auto-settle ~80% of disputes instantly.',
-      'Integrated Chainlink VRF for provably random juror selection and IPFS as a tamper-proof evidence vault.',
-      'Frontend built with Next.js 14, Tailwind CSS, and Framer Motion. Wallet connectivity via RainbowKit + Wagmi v2.',
-      'Designed the NXF Token economy — stake to earn juror rights, vote on disputes, get slashed for bad behavior.',
+      'Architected a decentralized peer-to-peer dispute resolution platform on Polygon using escrow-based smart contracts.',
+      'Developed a three-layer conflict resolution system comprising escrow, auto-resolution, and DAO juror voting mechanisms.',
+      'Integrated Chainlink VRF for provably fair juror selection and IPFS for immutable, tamper-proof evidence storage.',
+      'Implemented wallet connectivity using RainbowKit, Wagmi, ethers.js, and MetaMask for seamless Web3 interaction.',
+      'Designed token-based staking and slashing mechanisms to incentivize honest participation and deter malicious behavior.',
     ],
     tech: [
       'Solidity',
-      'Next.js',
       'Polygon',
+      'React.js',
       'Chainlink VRF',
       'IPFS',
       'ethers.js',
       'RainbowKit',
-      'Tailwind',
     ],
-    links: [{ label: 'Live Demo', url: '#' }, { label: 'GitHub', url: 'https://github.com/AdityaKumar1511/NexusForce' }],
+    links: [{ label: 'Live Demo', url: 'https://nexus-force.vercel.app' }, { label: 'GitHub', url: 'https://github.com/rudraaa-pratap/NexusForce' }],
   },
   {
-    title: 'Stubble Connect',
-    badge: 'Hackathon Project',
+    title: 'Decentralised Drive',
+    badge: 'Blockchain Cloud Storage',
     description:
-      'Built for the GDG TechSprint Hackathon. A responsive web platform tackling the hackathon\'s problem statement with clean UI and solid functionality.',
+      'A decentralized cloud storage platform leveraging IPFS and blockchain technology for tamper-resistant storage.',
     points: [
-      'Developed interactive UI using HTML, CSS, and vanilla JavaScript.',
-      'Implemented dynamic components for better usability and performance.',
-      'Deployed and managed via Firebase Hosting.',
+      'Developed a decentralized cloud storage platform leveraging IPFS and blockchain technology for tamper-resistant storage.',
+      'Enabled secure file uploads and content-addressable retrieval through distributed storage infrastructure.',
+      'Implemented wallet-based authentication and smart-contract-driven access management for file permissions.',
+      'Built a responsive, user-friendly interface using React.js to streamline file upload and retrieval workflows.',
     ],
-    tech: ['HTML', 'CSS', 'JavaScript', 'Firebase'],
-    links: [{ label: 'Live Demo', url: '#' }, { label: 'GitHub', url: 'https://github.com/AdityaKumar1511/Stubble_Connect' }],
-  },
-  {
-    title: 'Robotics Club Website — NIT Patna',
-    badge: 'Web Dev',
-    description:
-      'The official website for our college robotics club. Events, team showcase, project highlights — all in one place.',
-    points: [
-      'Designed and developed from scratch with sections for events, team members, and project showcases.',
-      'Fully responsive design for seamless cross-device compatibility.',
-      'Deployed and maintained on Firebase.',
-    ],
-    tech: ['HTML', 'CSS', 'JavaScript', 'Firebase'],
-    links: [{ label: 'Live Demo', url: '#' }, { label: 'GitHub', url: 'https://github.com/AdityaKumar1511/robotics-club-website' }],
+    tech: ['IPFS', 'Solidity', 'React.js'],
+    links: [{ label: 'Live Demo', url: 'https://decentralised-drive.vercel.app' }, { label: 'GitHub', url: 'https://github.com/rudraaa-pratap/Decentralised_Drive' }],
   },
 ];
 
