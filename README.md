@@ -1,6 +1,6 @@
 <div align="center">
   
-  # Rudra Pratap's Personal Portfolio
+  # My Personal Portfolio
   
   **A modern, responsive, and beautifully designed personal portfolio to showcase my projects, skills, and journey as a developer.**
 
